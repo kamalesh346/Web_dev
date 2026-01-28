@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/health",(req,res)=>{
-    res.status(200).json({status:"Ok",msg:"backend is runnign"})
+res.status(200).json({status:"Ok",msg:"backend is runnign"})
 })
 
 export default app
